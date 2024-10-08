@@ -31,7 +31,7 @@
     --font-size-huge: 7.5rem;
     --font-stack: 'Hk Grotesk', sans-serif;
 
-    --line-height-normal: 1.9;
+    --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
     --black: #000;
@@ -40,7 +40,7 @@
     --white-1: #e5e5e6da;
 
 
-    --container-max-width: 1180px;
+    --container-max-width: 1300px;
     --container-normal-width: 800px;
     --container-medium-width: 700px; 
     --container-small-width: 500px;
