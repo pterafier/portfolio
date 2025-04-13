@@ -227,6 +227,12 @@ body:not(.user-is-tabbing) a:focus {
     outline: none;
 }
 
+.button-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .btn::after {
     content: '';
     display: block;
