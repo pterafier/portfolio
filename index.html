@@ -79,13 +79,13 @@
                     <h3>Glyphweaver</h3>
                     <p>
                         Glyphweaver is an action adventure game about discovering the secrets
-                        of a lost civilization. Created in 30 days for the 2024 annual Github
+                        of a lost civilization. Created in 30 days using Unreal Engine for the 2024 annual Github
                         Gameoff Game jam (November), I worked as the lead programmer amongst a small team.
                         My role was an important one here, as I guided other programmers when
                         they needed help or corrections, while designing and programming the
                         systems and frameworks required for this project. I designed the combat
                         system from the ground up, including a Doom-like token system to ensure
-                        the player doesn't get overwhelmed or swarmed by enemies. I created
+                        the player doesn't get overwhelmed or swarmed by enemies. I created unique
                         spells and utilized the Environment Query System to create complex AI
                         behavior with varying enemy types to keep combat challenging and interesting.
                         I challenged myself to work almost entirely in C++ and mostly accomplished that.
@@ -123,21 +123,57 @@
                 </div>
             </div>
 
+            <div class="work__box">
+                <div class="work__text">
+                    <h3>Clocktergeist</h3>
+                    <p>
+                        Clocktergeist is an FPS Boss Rush with a focus on combat that won Best Art Direction in the 2025 Boss Rush game jam.
+                        Using Unreal Engine, I worked as a programmer and game designer, and was the designer responsible for most of the game's systems.
+                        Because I was the most experienced with GAS, I had to create video tutorials and various in-engine showcases 
+                        to allow the other team members to use the system properly, which helped solidify many of the GAS concepts for me. 
+                        I designed and implemented the grappling hook system (among other things) over a few iterations, and used
+                        a clever solution to handle moving grapple targets - homing projectiles. Unfortunately, I faced a health issue that caused
+                        me to drop out for about 2 weeks in the middle of the jam, but I started and ended very strong by both providing the template and systems
+                        necessary to complete the game at the start of the jam, and polishing/debugging the many loose ends at the jam's close. This game was a lot of fun to 
+                        work on and was technically challenging. I have since used GAS in every project since Clocktergeist and have continued to improve my GAS workflow.
+                    </p>
+                    <ul class="work__list">
+                        <li>C++ and Blueprint Programming</li>
+                        <li>Gameplay Abilities, Gameplay Effects, Gameplay Tags</li>
+                        <li>GAS</li>
+                        <li>Complex vector math</li>
+                        <li>Game Design</li>
+                        <li>Debug team members' code</li>
+                        <li>Create checkpoint system using Game Instance Subsystem</li>
+                        <li>Create and program UI using Common UI</li>
+                    </ul>
+    
+                    <div class="work__links">
+                        <a href="https://veeyuh.itch.io/Clocktergeist" target="_blank" class="link__text">
+                            Play Game <span>&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="work__image-box">
+                    <img src="./images/clocktergeist_portfolio.gif" class="work__image" alt="Clocktergeist Gameplay" />
+                </div>
+            </div>
+
         <div class="work__box">
             <div class="work__text">
-                <h3>Escape From Fox Island</h3>
+                <h3>Idiot Guardsmen</h3>
                 <p>
-                    A short survival game created in 10 days for the GoedWare game jam.
-                    This was the 3rd jam I had participated in and is one of my proudest
-                    finished products. I created all the assets except for the fox,
-                    animations, and skybox. Anything not created by me was found in an
-                    asset pack on the Unreal Engine marketplace. This is the most fun,
-                    vibey game I've made to date and is worth the 10 minutes to play.
+                    A short, silly adventure game where you must guard a powerful, elite wizard as a complete idiot. This game was created
+                    for Brackey's game jam in 2025 and uses Unreal Engine.
+                    I was the sole developer on this game apart from Charles, the sound engineer who created the sounds and music.
+                    The code was written mostly in C++ and is totally original, however the art and VFX are from the marketplace.
+                    This project required me to create some robust systems that I didn't originally plan for, like the many
+                    timers on the prisoner and the dialogue system for various guards, along with world space UI elements.
                 </p>
                 <ul class="work__list">
                     <li>Game Design</li>
                     <li>System Design</li>
-                    <li>UI Design</li>
+                    <li>UI Design and Programming</li>
                     <li>Level Design</li>
                     <li>Blueprint Programming</li>
                     <li>Blueprint Interfaces</li>
@@ -148,49 +184,13 @@
                 </ul>
 
                 <div class="work__links">
-                    <a href="https://pterafier.itch.io/escape-from-fox-island" target="_blank" class="link__text">
+                    <a href="https://pterafier.itch.io/idiot-guardsmen" target="_blank" class="link__text">
                         Play Game <span>&rarr;</span>
                     </a>
-                    <a href="https://github.com/pterafier/Escape-From-Fox-Island" title="View Project Files" target="_blank">
-                        <img src="./images/github.svg" class="work__code" alt="GitHub">
-                    </a>
                 </div>
             </div>
             <div class="work__image-box">
-                <img src="./images/project-1.gif" class="work__image" alt="Project 2" />
-            </div>
-        </div>
-
-        <div class="work__box">
-            <div class="work__text">
-                <h3>C++ CommonUI Template Project</h3>
-                <p>
-                    A C++ project that utilizes Epic Games' CommonUI plugin as well
-                    as base classes setup for a First Person game, including object
-                    interaction. This template is on its 3rd iteration and is
-                    perfect for starting a new C++ FPS project. It features custom
-                    UI functions for pushing widgets to target stacks, setting
-                    input modes and cursor behavior for opening and closing menus,
-                    and function libraries to help designers iterate quickly.
-                </p>
-                <ul class="work__list">
-                    <li>C++ and Blueprint Programming</li>
-                    <li>Widget stacks (Menu stack, HUD stack, Interactable HUD stack)</li>
-                    <li>Advanced Widget Architecture</li>
-                    <li>Function Libraries</li>
-                    <li>Blueprint Interfaces</li>
-                    <li>Unreal Engine movement logic</li>
-                    <li>Logic Separation Between Player State, Player Character, and Player Controller</li>
-                </ul>
-
-                <div class="work__links">
-                    <a href="https://github.com/pterafier/CommonUI_FPSTemplate" target="_blank">
-                        <img src="./images/github.svg" class="work__code" title="View Project Files" alt="GitHub">
-                    </a>
-                </div>
-            </div>
-            <div class="work__image-box">
-                <img src="./images/project-2.png" class="work__image" alt="Project 3" />
+                <img src="./images/IdiotGuardsmen_Portfolio.gif" class="work__image" alt="Idiot Guardsmen Trailer" />
             </div>
         </div>
 
@@ -201,7 +201,7 @@
                     Built upon my knowledge of past projects, this FPS Tower Defense
                     contains multiple enemy types, turret upgrades, player abilities,
                     a stunning environment, and everything else you'd expect from an
-                    FPS tower defense game. Made solo in 2 weeks for the Acerola Jam.
+                    FPS tower defense game created with Unreal Engine. Made solo in 2 weeks for the Acerola Jam.
                     I wanted a unique enemy that would chase the player indefinitely,
                     and that meant I needed to figure out how to get AI to jump over
                     obstacles. Additionally, I spent the equivalent of 3 days
@@ -244,7 +244,7 @@
             <div class="work__text">
                 <h3>Untitled Zombie RPG</h3>
                 <p>
-                    I worked as the sole programmer on this untitled zombie game
+                    I worked as the sole programmer on this Unreal Engine 5 untitled zombie game
                     with over 10 people. The design doc called for various systems like
                     a random quest generator, item pickups, a drag and drop inventory,
                     and randomized back-alley shops. The project was in development
