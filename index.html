@@ -54,10 +54,10 @@
             <div class="header__text">
                 <h1 class="heading-primary">
                     <!-- Replace the following name with your name -->
-                    <span>Michael "pterafier" Durkin</span>
+                    <span>Michael Durkin</span>
                 </h1>
                 <!-- Put a small paragraph about yourself -->
-                <p>An Unreal Engine Game Developer based in Chicago, USA.</p>
+                <p>An Unreal Engine Gameplay Programmer based in Chicago, USA.</p>
                 <div class="button-row">
                     <a href="#contact" class="btn btn--pink">Get in touch</a>
                     <a href="https://pterafier.itch.io/" target="_blank" class="btn btn--pink">
@@ -81,38 +81,41 @@
 
             <div class="work__box">
                 <div class="work__text">
-                    <h3>Project Arsenic (Ongoing)</h3>
+                    <h3>Forgeborn</h3>
                     <p>
-                        While this project isn't in a state that's going to shock anyone visually, the systems in place are easily my best work.
-                        Featuring a nice framework for saving and loading, a framework for menus and UI, clean GAS implementation, and a robust
-                        interaction system all built from the ground up, I couldn't be more proud of the state of this project. If you're a 
-                        recruiter or someone interested in checking out the details of this project, I made a snapshot of the project and its
-                        code available on GitHub at the link below. This project also comes with detailed documentation about each of the 
-                        implemented systems which is also linked below. 
+                        Forgeborn is a Blacksmith Simulator set in medieval times with custom art, custom sounds and music, and custom code. This game was created
+                        in about a month for the 2025 "ThatGameCompany x Coreblazer" game jam.
+                        I designed all the code in the game to be data driven and use excellent inheritence practices to minimize the amount of extra work
+                        I would have to do throughout the project. The workstations are a great example of this; using inheritence made it easy to add entries to the action log, and play
+                        sounds when items were completed. The quick time event minigames use timers and input checks to determine player success, and those events 
+                        are also data driven and unique per-item, meaning that a Viridium Sword and an Iron Sword have different quick time events - a design decision
+                        that allows players to become more immersed in the blacksmithing experience. While working on the camera system, I was surprised at how complex
+                        it became due to the need to possess an invisible pawn and perform some interpolation when returning to the player-controlled camera, ensuring that
+                        the camera returned to the correct location.
                     </p>
                     <ul class="work__list">
                         <li>Systems Architecture</li>
-                        <li>Saving and Loading</li>
-                        <li>World Partition</li>
-                        <li>Deep C++ and Blueprint Programming</li>
-                        <li>Component-based Design</li>
-                        <li>Event-driven logic</li>
-                        <li>Game code optimization</li>
-                        <li>Strong inheritance structure</li>
-                        <li>Subversion Version Control</li>
+                        <li>Common UI</li>
+                        <li>Robust interaction system</li>
+                        <li>Customer system</li>
+                        <li>Order Log/Quest Log</li>
+                        <li>Camera change systems</li>
+                        <li>Simple AI</li>
+                        <li>C++ and Blueprint Programming</li>
+                        <li>Component-based Design (Inventory, temperature)</li>
+                        <li>Fully data-driven systems</li>
+                        <li>Inheritance</li>
+                        <li>Subversion</li>
                     </ul>
     
                     <div class="work__links">
-                        <a href="https://pterafier.github.io/ArsenicDocs/" target="_blank" class="link__text">
-                            View Documentation <span>&rarr;</span>
-                        </a>
-                        <a href="https://github.com/pterafier/ProjectArsenic" title="View Project Files" target="_blank">
-                            <img src="./images/github.svg" class="work__code" alt="GitHub">
+                        <a href="https://pterafier.itch.io/forgeborn" target="_blank" class="link__text">
+                            Play Game <span>&rarr;</span>
                         </a>
                     </div>
                 </div>
                 <div class="work__image-box">
-                    <img src="./images/ArsenicShowcase.gif" class="work__image" alt="Arsenic Showcase" />
+                    <img src="./images/forgeborn_PortfolioGif.gif" class="work__image" alt="Forgeborn Showcase" />
                 </div>
             </div>
 
@@ -229,8 +232,8 @@
                     <li>Level Design</li>
                     <li>Animation Blueprints</li>
                     <li>Niagara Systems</li>
-                    <li>Custom Collision</li>
-                    <li>Music produced in-house</li>
+                    <li>Custom Collision Channels</li>
+                    <li>Music production</li>
                     <li>Perforce Version Control</li>
                 </ul>
 
@@ -250,40 +253,38 @@
 
         <div class="work__box">
             <div class="work__text">
-                <h3>Untitled Zombie RPG</h3>
+                <h3>Project Arsenic</h3>
                 <p>
-                    I worked as the sole programmer on this Unreal Engine 5 untitled zombie game
-                    with over 10 people. The design doc called for various systems like
-                    a random quest generator, item pickups, a drag and drop inventory,
-                    and randomized back-alley shops. The project was in development
-                    for roughly 2 months before production stopped, but the work I
-                    did with the team is worthy of showcasing. This project forced
-                    me to learn lots of new things very quickly, like creating my
-                    own ability system from scratch, complex maths, and creating
-                    exciting, polished projectile weapon and melee weapon mechanics.
+                    While this project isn't in a state that's going to shock anyone visually, the systems in place are easily my best work.
+                    Featuring a nice framework for saving and loading, a framework for menus and UI, clean GAS implementation, and a robust
+                    interaction system all built from the ground up, I couldn't be more proud of the state of this project. If you're a 
+                    recruiter or someone interested in checking out the details of this project, I made a snapshot of the project and its
+                    code available on GitHub at the link below. This project also comes with detailed documentation about each of the 
+                    implemented systems which is also linked below. 
                 </p>
                 <ul class="work__list">
-                    <li>C++ and Blueprint Programming</li>
-                    <li>Teamwork</li>
-                    <li>CommonUI</li>
-                    <li>Vector Math, Trigonometry</li>
-                    <li>UI Animations</li>
-                    <li>Quest System</li>
-                    <li>Data-Driven Inventory/Equip System</li>
-                    <li>Dynamic Weapons Systems</li>
-                    <li>Custom Non-GAS Ability System</li>
-                    <li>Subversion Version Control</li>
-                    <li>Server Management/Basic IT</li>
+                    <li>Systems Architecture</li>
+                    <li>Saving and Loading</li>
+                    <li>Managing Data with World Partition</li>
+                    <li>Deep C++ and Blueprint Programming</li>
+                    <li>Component-based Design</li>
+                    <li>Event-driven logic</li>
+                    <li>Game code optimization</li>
+                    <li>Strong inheritance</li>
+                    <li>Subversion</li>
                 </ul>
 
                 <div class="work__links">
-                    <a href="https://github.com/pterafier/UntitleZombieRPG" target="_blank">
-                        <img src="./images/github.svg" class="work__code" title="View Project Files" alt="GitHub">
+                    <a href="https://pterafier.github.io/ArsenicDocs/" target="_blank" class="link__text">
+                        View Documentation <span>&rarr;</span>
+                    </a>
+                    <a href="https://github.com/pterafier/ProjectArsenic" title="View Project Files" target="_blank">
+                        <img src="./images/github.svg" class="work__code" alt="GitHub">
                     </a>
                 </div>
             </div>
             <div class="work__image-box">
-                <img src="./images/project-4.gif" class="work__image" alt="Project 5" />
+                <img src="./images/ArsenicShowcase.gif" class="work__image" alt="Arsenic Showcase" />
             </div>
         </div>
         </div>
